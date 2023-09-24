@@ -1,0 +1,400 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Navtext {
+ 
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.flex-container {
+  display: flex;
+
+}
+
+.flex-container>div {
+
+  margin: 3px;
+  padding: 5px;
+  font-size: 15px;
+
+}
+
+@media (max-width: 768px) {
+  .Navtext {
+ 
+   display: none;
+  }
+  .flex-container {
+    display: flex;
+    float: left;
+  
+  }
+  
+}
+.Login{
+  cursor: pointer;
+}
+.logoImg{
+  height: 4rem;
+  width: 5rem;
+}
+hr{
+  color: black;
+}
+/* .Navbartext{
+padding: 5px;
+size: 10px;
+
+} */
+
+
+/* carsole */
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5vw;
+}
+.centeredbutton{
+  position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vw;
+  
+}
+.centeredcard{
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vw;
+}
+.newslattercard{
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* .centeredbuttonofcard{
+  position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vw;
+} */
+
+.newslattertext{
+  margin-top: 100px;
+}
+
+
+
+
+.buttonetxt {
+  
+  /* adjust the padding to only show bottom border */
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  /* border-bottom: 2px solid white; */
+  color: black;
+}
+
+.buttonetxt:hover {
+  padding: 10px 20px;
+  /* restore original padding */
+  opacity: 1;
+}
+.showmorebutton{
+ 
+    transition: all 0.3s ease-in-out;
+    /* border-bottom: 2px solid white; */
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+.showmorebutton:hover{
+  padding: 10px 20px;
+    /* restore original padding */
+    opacity: 1;
+    background-color: black;
+    color: white;
+}
+.newnewslatterbutton{
+  transition: all 0.3s ease-in-out;
+    
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 10px 20px;
+   
+}
+.newnewslatterbutton:hover{
+  padding: 10px 20px;
+    
+    opacity: 1;
+    background-color: white;
+    color: black;
+}
+.horizontalline{
+   margin-top: -40px;
+}
+.newslatter2ndtext{
+  background-color:#fafafa;
+ 
+}
+.newslattertextnew{
+  color: #c96;
+}
+.newslatterimg{
+  opacity: 1;
+}
+.textofnews{
+  font-weight: 1rem;
+}
+.trandingHomepagetext{
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2vw;
+}
+.fromourblog{
+  margin-top: 3rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.d-flex {
+  gap: 10px;
+  
+  
+}
+.titleoftranding{
+  margin-top: -20px;
+}
+
+/* .Wrapper{
+  max-height: 350px;
+  display: flex;
+  overflow-x: auto;
+  border: none;
+  
+}
+.item{
+  min-width: 350px;
+  height: 350px;
+  line-height: 300px;
+  text-align: center;
+  background-color: black;
+  margin-right: 20px;
+} */
+.tradingcard{
+  margin-right: 30px;
+  border: none;
+  cursor: pointer;
+
+}
+.fromourblognewcard{
+  margin-right: 30px;
+    border: none;
+    cursor: pointer;
+}
+.tradingcard:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.newwrap{
+  
+  display: flex;
+  
+}
+.readmoreblog:hover{
+  color:#c96;
+  cursor: pointer;
+
+}
+.fromourflogcard{
+  display: flex;
+  margin-top: 3rem;
+}
+.bagdge{
+  border-radius: 0;
+}
+.trandingprice{
+  display: flex;
+  gap: 10px;
+ margin-left: 70px;
+ margin-top: -20px;
+}
+.womanSale{
+  border-radius: 0;
+  float: left;
+}
+ .footer {
+   background-color: #343a40;
+   color: white;
+   padding: 5rem;
+   text-align: justify;
+ }
+
+ /* Media query for screens smaller than 768px */
+ @media (max-width: 767px) {
+   .footer {
+     padding: 2rem;
+   }
+
+   .footer__column {
+     margin-bottom: 2rem;
+   }
+ }
+
+ /* Media query for screens between 768px and 991px */
+ @media (min-width: 768px) and (max-width: 991px) {
+   .footer {
+     padding: 3rem;
+   }
+
+   .footer__column {
+     width: 50%;
+     margin-bottom: 2rem;
+   }
+ }
+
+ /* Media query for screens larger than 991px */
+ @media (min-width: 992px) {
+   .footer {
+     padding: 5rem;
+   }
+
+   .footer__column {
+     width: 33.33%;
+     margin-bottom: 0;
+   }
+ }
+
+.addtocartnewbutton {
+  visibility: hidden;
+}
+
+.card:hover .addtocartnewbutton {
+  visibility: visible;
+  border-radius: 0;
+  width: 100%;
+}
+.addtocartnewbutton{
+  background-color: #c96;
+}
+.addtocartnewbutton:hover {
+  background-color: #c96;
+}
+.addtocartnewbutton:active {
+  background-color: #c96;
+}
+.whishlisicon{
+  visibility: hidden;
+}
+.card:hover .whishlisicon {
+  visibility: visible;
+}
+.whishlisicon {
+  position: relative;
+  color: black;
+}
+
+.whishlisicon:hover:after {
+  content: 'Add to Wishlist';
+  position: absolute;
+  top: -0px;
+  left: -90px;
+  padding: 4px;
+  background: #c96;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: black;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+.active-underline {
+  height: 2px;
+  background-color:#c96;
+  color: #c96;
+  margin-top: 4px;
+  width: 100%;
+}
+
+.Trandingtext.active {
+  font-weight: bold;
+  color: #c96;
+ 
+}
+
+.paymentanddelivery{
+font-weight: 700;
+margin-top: 50px;
+font-size: 15px;
+}
+.titleofFetaure{
+  font-weight: 200;
+  margin-top: -10px;
+  opacity: 0.5;
+}
+.feturesicon{
+  size: 500px;
+}
+.icons {
+  font-size: 1.5rem;
+  /* set the font size to 3 times the default size */
+  width: 100px;
+  /* set the width to 100px */
+  height: 100px;
+  /* set the height to 100px */
+  
+}
+.feturesicon{
+  margin-top: -50px;
+  margin-left: 40%;
+}
+.feturestext{
+  margin-top: -50px;
+}
+.featurescard{
+  padding: 5rem;
+}
+.subscribeimage{
+  background-image: url("images/subscribe.jpg");
+  background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 40rem;
+    cursor: pointer;
+    
+}
+.subscribeimage:hover{
+  opacity: 0.9;
+}
+.footercolore{
+  color:lightgray;
+}
+.footercolore:hover{
+  color: #c96;
+  cursor: pointer;
+}
+.footericon{
+
+  font-size: 1rem;
+  color: black;
+}
+.footericon:hover{
+background-color: white;
+cursor: pointer;
+border-radius: 100%;
+
+
+}
